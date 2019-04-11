@@ -1,6 +1,2 @@
-require "EA_Sports/version"
-
-module EASports
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "EA_Sports/version"
+require_relative "EA_Sports/cli"
