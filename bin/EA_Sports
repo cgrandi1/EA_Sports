@@ -4,6 +4,5 @@
 require_relative '../lib/EA_Sports'
 
 
-puts "Hello World"
 
-EASports::CLI.new.start
+EA_Sports::CLI.new.call
