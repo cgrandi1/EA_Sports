@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/EA_Sports"
 
-EA_Sports::CLI.new.start
+require_relative '../lib/EA_Sports'
+
+
+puts "Hello World"
+
+EASports::CLI.new.start
